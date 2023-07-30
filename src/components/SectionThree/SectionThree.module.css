@@ -1,0 +1,58 @@
+.section {
+  height: 618px;
+
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+
+  padding-left: 255px;
+}
+.texts {
+  width: 604px;
+}
+.texts > h1 {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 84px;
+  /* identical to box height, or 140% */
+
+  color: #ffffff;
+  margin-bottom: 64px;
+}
+.texts > p {
+  width: 604px;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.texts > a {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 132%;
+  /* or 26px */
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+
+.texts > a:hover {
+  background: linear-gradient(180deg, #0066ff 0%, #00ffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration-color: #00ffff;
+}

@@ -1,0 +1,90 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.section > h1 {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 110%;
+
+  color: #ffffff;
+}
+.variants {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+}
+.variant {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+
+  width: 560px;
+  height: 521px;
+
+  background: linear-gradient(240.27deg, #0066ff 6.53%, rgba(0, 4, 41, 0) 69.56%);
+  border: 3px solid;
+
+  border-image-source: linear-gradient(180deg, #00b2ff 0%, rgba(0, 0, 0, 0) 100%);
+  border-image-slice: 1; /* Adjust the slice value as needed */
+  border-image-width: 3px;
+
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.variants > *:nth-child(1) {
+  background: linear-gradient(240.27deg, rgba(0, 4, 41, 0) 6.53%, #0066ff 69.56%);
+}
+.variant:hover {
+  background: linear-gradient(
+    120.53deg,
+    rgba(0, 102, 255, 0.8) 5.77%,
+    rgba(0, 255, 255, 0.8) 128.69%
+  );
+}
+
+.variant > h2 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #ffffff;
+}
+
+.variant > p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.variant > span {
+  margin-top: 40px;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.linkBox {
+  align-self: center;
+
+  margin-top: 64px;
+  margin-bottom: 260px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

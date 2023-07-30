@@ -1,0 +1,48 @@
+.container {
+  background: #000000;
+  color: white;
+
+  width: 100vw;
+  height: 39px;
+
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  overflow: hidden;
+
+  z-index: 4;
+}
+
+.marqueeInfinite div {
+  display: flex;
+  width: 200%;
+  animation: marquee-infinite 5s linear infinite;
+}
+
+.marqueeInfinite h1 {
+  white-space: nowrap;
+  width: 100%;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.marqueeInfinite:hover div {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-infinite {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

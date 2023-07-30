@@ -1,0 +1,15 @@
+.lilBlink {
+  box-sizing: border-box;
+
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background: radial-gradient(
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.01) 70%,
+    rgba(255, 255, 255, 0.005) 100%
+  );
+  opacity: 0.5;
+}

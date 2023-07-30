@@ -1,0 +1,64 @@
+.section {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  width: 100vw;
+  color: #ffffff;
+  margin-top: 120px;
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 184px;
+  position: relative;
+}
+.texts {
+  width: 904px;
+  height: 520px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  justify-self: flex-start;
+
+  position: relative;
+
+  margin-right: 260px;
+}
+.texts h1 {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 84px;
+  /* or 140% */
+
+  text-transform: uppercase;
+
+  margin-bottom: 28px;
+}
+.texts p {
+  width: 589px;
+  height: 96px;
+
+  /* Body/Body02 */
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  color: #ffffff;
+
+  margin-bottom: 64px;
+}
+.planet {
+  position: absolute;
+  top: -170px;
+  right: -5px;
+  z-index: 2;
+}

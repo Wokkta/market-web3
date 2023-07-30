@@ -1,0 +1,38 @@
+.section {
+  height: 340px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding-left: 60px;
+}
+.item {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.numberBlock {
+  width: 286px;
+  height: 160px;
+  margin-top: -10px;
+}
+.numberBlock > h1 {
+  text-align: start;
+
+  color: white;
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 96px;
+}
+
+.numberBlock > p {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #ffffff;
+}

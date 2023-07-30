@@ -1,0 +1,17 @@
+.main {
+  width: 100vw;
+  max-height: 11000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.scrollFix {
+  position: absolute;
+  width: 100vw;
+  height: 760vh;
+  z-index: 3;
+}

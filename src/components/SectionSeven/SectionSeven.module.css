@@ -1,0 +1,27 @@
+.section {
+  margin-bottom: 163px;
+  position: relative;
+}
+.infoBlock:nth-child(2) {
+  margin-top: 179px;
+}
+.infoBlock > h1 {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 110%;
+  /* identical to box height, or 66px */
+
+  color: #ffffff;
+
+  width: 972px;
+}
+.icons {
+  margin-top: 64px;
+  width: 1169px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 60px;
+  column-gap: 75px;
+}

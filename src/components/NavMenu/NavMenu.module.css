@@ -1,0 +1,33 @@
+
+.NavMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 1160px;
+    height: 70px;
+    
+    margin-top: 84px;
+}
+.NavMenu > nav{
+    display: flex;
+    justify-content: space-around;
+    
+
+    align-items: flex-start;
+    
+    gap: 40px;
+
+    width: 573px;
+    height: 24px;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+
+
+    color: #FFFFFF;
+}

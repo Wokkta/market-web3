@@ -1,0 +1,48 @@
+.inputWrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.fileInput {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  cursor: pointer;
+  z-index: 2;
+}
+
+.label {
+  width: 260px;
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 132%;
+
+  text-decoration-line: underline;
+
+  color: #ffffff;
+}
+.label:hover {
+  background: linear-gradient(180deg, #0066ff 0%, #00ffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration-color: #00ffff;
+}
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}

@@ -1,0 +1,56 @@
+.buttonGroup {
+  display: flex;
+  gap: 16px;
+}
+.btn {
+  width: 112px;
+  height: 47px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #ffffff;
+  background: transparent;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+
+  color: #ffffff;
+}
+
+.btnActive {
+  width: 112px;
+  height: 47px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #ffffff;
+  background: transparent;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+
+  color: #ffffff;
+
+  background: linear-gradient(93.17deg, #0066ff 1.33%, #00ffff 198.71%);
+  box-shadow: 0px 0px 20px #0053ff;
+}
+
+.label {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+
+  color: #ffffff;
+}

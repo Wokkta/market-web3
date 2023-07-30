@@ -1,0 +1,51 @@
+/**/
+.cover {
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  --angle: 30deg;
+  --width: 97px;
+  --height: calc(2 * (var(--width) / (2 * tan(var(--angle)))));
+}
+
+.container {
+  min-width: 200vw;
+  left: -35vw;
+  top: -10vh;
+  max-height: 820vh; /////////////////////////////////////
+}
+.hexagon {
+  position: relative;
+  display: inline-block;
+  /* left/right margin approx. 25% of .hexagon width + spacing */
+  margin: -1.5px calc(var(--width) * 0.25 + 1.9px);
+  background: #000429;
+  text-align: center;
+}
+.hexagon,
+.hexagon::before,
+.hexagon::after {
+  /* easy way: height is width * 1.732
+    actual formula is 2*(width/(2*Math.tan(Math.PI/6)))
+    remove border-radius for sharp corners on hexagons */
+  width: var(--width);
+  height: var(--height);
+}
+.hexagon::before {
+  background-color: inherit;
+  content: '';
+  position: absolute;
+  left: 0;
+  transform: rotate(-60deg);
+}
+.hexagon::after {
+  background-color: inherit;
+  content: '';
+  position: absolute;
+  left: 0;
+  transform: rotate(60deg);
+}
+.hexagon:nth-child(even) {
+  /* top approx. 50% of .hexagon height + spacing */
+  top: calc(var(--height) * 0.5 + 1.5px);
+}

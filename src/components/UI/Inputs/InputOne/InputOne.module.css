@@ -1,0 +1,17 @@
+.inputOne:active {
+  border: none;
+}
+.inputOne {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  color: #ffffff;
+}

@@ -1,0 +1,123 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-bottom: 180px;
+
+  padding-left: 200px;
+}
+.section > h3 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+.section > h1 {
+  font-family: 'Unbounded';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 84px;
+
+  color: #ffffff;
+
+  margin-bottom: 64px;
+}
+.labels {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #f0d8e2;
+
+  display: none;
+}
+.dropdownOne {
+  width: 194px;
+  height: 50px;
+  background: #000429;
+  border: 1px solid #ffffff;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #f0d8e2;
+}
+.dropdownOne:hover {
+  color: #2dffff;
+}
+.dropdownOne > option {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #f0d8e2;
+}
+.dropdownOne > option:hover {
+  color: #2dffff;
+}
+
+.dropdownTwo {
+  width: 194px;
+  height: 50px;
+  background: #000429;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #f0d8e2;
+}
+.dropdownTwo:hover {
+  color: #2dffff;
+}
+.dropdownTwo > option {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #f0d8e2;
+}
+.dropdownTwo > option:hover {
+  color: #2dffff;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 514px;
+}
+
+.form > span {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #ffffff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 182px;
+}
